@@ -10,7 +10,7 @@ import { HEROES } from '../mock-heroes';
 export class HeroesComponent implements OnInit {
 
   heroes = HEROES;
-  selectedHero: Hero;
+  selectedHero: Hero; // being sent to the input property on the hero-detail component
 
   constructor() { }
 

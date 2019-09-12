@@ -7,27 +7,5 @@
     </li>
 </ul>
 
-<div *ngIf="selectedHero">
-    <h2>{{selectedHero.name | uppercase}} Details</h2>
-    <div><span>id: </span>{{selectedHero.id}}</div>
-    <div>
-      <label>name:
-        <input [(ngModel)]="selectedHero.name" placeholder="name"/>
-      </label>
-    </div>
-</div>
-
-<!-- <h2>{{hero.name }} Details</h2>
-<div>
-    <span>ID: </span>
-    {{hero.id}}
-</div>
-<div>
-    <span>Name: </span>
-    {{hero.name | uppercase}}
-</div> -->
-<!-- <div>
-    <label>Name:
-        <input [(ngModel)]="hero.name" placeholder="name"/>
-    </label>
-</div> -->
+<!-- selectedHero is the variable on this heroes component -->
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
