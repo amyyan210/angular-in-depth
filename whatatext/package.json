@@ -11,7 +11,7 @@
   "dependencies": {
     "@aspnet/signalr": "^1.0.4",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "websocket": "^1.0.28",
     "xmlhttprequest": "^1.8.0"
   }
